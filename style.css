@@ -1,0 +1,65 @@
+:root {
+  
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+body {
+	line-height: 1.6;
+}
+
+.counter__current {
+    font-size: 8rem;
+}
+.counter__presec {
+    font-size: 4rem;
+}
+#container{
+    height: 100dvh;
+    width: 100dvw;
+    max-width: 100dvw;
+    min-height: 100dvh;
+    overflow: hidden;
+
+}
+.playarea{
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.playarea__clicker {
+  height: 50%
+}
+
+.counter__persec{
+  font-size: 4rem;
+}
+
+.powerups{
+   display: grid;
+   gap: 1rem;
+   grid-auto-rows: 1fr;
+   grid-template-columns: repeat(2, 1fr); 
+   padding: 10px;
+}
+.powerup{
+    background-color: #7C0B2B;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+}
